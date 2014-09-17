@@ -1,0 +1,14 @@
+Alku
+->Anna L1, L2, L3
+	-> if L1 < L2
+		-> if L2 < L3
+			-> L1<L2<L3
+		else -> L1 < L3
+			True -> L1<L3<L2
+			False -> L3<L1<L2
+	Else -> if L2 < L3
+		-> if L1 < L3
+			True -> L2<L1<L3
+			False -> L2<L3<L1
+		Else -> L3<L2<L1
+Loppu
